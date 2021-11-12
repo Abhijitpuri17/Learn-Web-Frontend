@@ -1,0 +1,27 @@
+h1{
+    font-family: "Arial";
+}
+
+p{
+    font-family: monospace;
+}
+
+body{
+    font-size: 20px;
+}
+
+
+/* 1em = 20px ==> size of body font we set*/
+
+#two{
+    font-size: 2.0em;
+}
+
+p{
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1{
+    text-align: center;
+}

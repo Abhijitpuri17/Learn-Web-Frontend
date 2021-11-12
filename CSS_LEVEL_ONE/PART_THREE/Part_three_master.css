@@ -1,0 +1,37 @@
+
+
+/* . for accessing a class */
+.FirstDiv{
+    color:aqua;
+}
+
+.SecondDiv{
+    color: chartreuse;
+}
+
+/* # for accesing a element by id */
+#singledout{
+    color: blueviolet;
+    text-decoration: line-through;
+}
+
+/* for applying some properties to ALL THE ELEMENTS */
+*{
+    font-size: large;
+}
+
+/* applied to ul which is next to h3 */
+h3 + ul{
+    border: 4px dotted brown;
+}
+
+/* a tag inside li */
+li a{
+    color: red;
+}
+
+/* a tag inside a li where href = "something" */
+li a[href= "https://www.codechef.com"]{
+    color: maroon;
+    border: 4px dotted black;
+}

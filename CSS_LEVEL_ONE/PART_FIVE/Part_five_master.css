@@ -1,0 +1,17 @@
+li{
+    color: crimson;
+}
+
+/* class selector can override a general tag selector*/
+.topItems{
+    color:blue;
+}
+
+/* id selector overrides class selector also*/
+#two{
+    color: aqua;
+}
+
+
+
+

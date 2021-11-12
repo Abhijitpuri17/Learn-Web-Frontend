@@ -1,0 +1,25 @@
+
+/* Background and border */
+
+body{
+    background: url(https://images.pexels.com/photos/9772544/pexels-photo-9772544.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div{
+    background-color: white;
+    border-color: aqua;
+    border-width: 5px;
+    border-style: double;
+}
+
+p{
+    color: black;
+    font-size: large;
+}
+
+span{
+    background-color: darkgreen;
+    color: white;
+}

@@ -1,0 +1,26 @@
+/*
+    selected tag {
+        property : value ;
+    } 
+*/
+
+
+/* defining color of some tag */
+h1{
+    color: red;
+}
+
+/* r:red, g:green, b:blue */
+li{
+    color: rgb(255, 97, 0);
+}
+
+/*hex code*/
+p{
+    color: #0895a8;
+}
+
+/*red, green, blue, alpha*/
+h4{
+    color: rgba(255, 97, 0, 0.5);
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    
+    </head>
+
+    <body>
+    
+        <!-- FORM 1 -->
+        <form action="https://www.codechef.com" method="get">
+            <h1>LOG IN</h1>
+
+            <h2>Please enter your Email and Password</h2>
+
+            <p>Email</p>
+            <input type="email" name="user_email" value="" placeholder="example@gmail.com" required><br>
+
+            <p>Password</p>
+            <input type="password" name="user_password" value=""><br><br>
+
+            <input type="submit" value="Log In">
+
+        </form>
+        <hr size="2" color="black" noshade>
+
+        <!-- FORM 2 -->
+
+        <form>
+            <h1>Choose color</h1>
+
+            <input type="color">
+        </form>
+
+        <hr size="2" color="black" noshade>
+
+        <!-- Label and input --> 
+
+        <!-- Way 1 -->
+        <label>
+            Enter text:
+            <input type="text">
+        </label><br>
+
+        <!-- Way 2-->
+
+        <label for="userTextInput">Enter another text</label>
+
+        <input id="userTextInput" type="text" name="" value="">
+
+        <hr size="3" color="black" noshade>
+        <!-- FORMS AND SELECTION -->
+
+        <h1>Hotel Feedback</h1>
+
+        <form method="get">
+
+            <h3>Are you from USA?</h3>
+
+            <!-- To form a radioGroup give same name to radioButtons-->
+            <label for="yes">Yes</label>
+            <input id = "yes" type="radio" name="fromUS" value="yes">
+
+            <label for="no">No</label>
+            <input id="no" type="radio" name="fromUS" value="no">
+
+            <h3>How was the service?</h3>
+
+            <!-- DropBox to select -->
+            <select name="stars">
+                <option value="bad">1</option>
+                <option value="okay">2</option>
+                <option value="Great">3</option>
+            </select>
+
+
+            <h3>Any other Feedback</h3>
+
+            <textarea name="myText" rows="8" cols="80"></textarea>
+            <br><br>
+
+
+            <input type="submit" value="SUBMIT">
+
+        </form>
+
+
+
+
+
+
+    </body>
+</html>
